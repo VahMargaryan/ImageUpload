@@ -1,0 +1,44 @@
+img{
+    border:1px solid black;
+}
+.ul{
+    display: inline-block;
+}
+.name{
+    display: inline-block;
+}
+.page{
+    display: inline-block;
+}
+.myinput{
+     font-size:18px;
+    width: 100%;
+    border: none;
+    border-color: transparent;
+    font-weight:bold  ;
+    font-family: 'ZCOOL XiaoWei', serif;"
+    transition: 0.3s;
+}
+#delete{
+    word-spacing: 0.1px;
+    color: white;
+    font-weight: bolder;
+    transition: 0.5s;
+    background: rgb(120, 28, 162);
+    background: linear-gradient(90deg, rgba(120, 28, 162, 1) 0%, rgba(101, 204, 224, 1) 47%, rgba(120, 28, 162, 1) 100%);
+}
+#rename {
+    color: white;
+    font-weight: bolder;
+    transition: 0.5s;
+    background: rgb(120, 28, 162);
+    background: linear-gradient(90deg, rgba(120, 28, 162, 1) 0%, rgba(101, 204, 224, 1) 47%, rgba(120, 28, 162, 1) 100%);
+}
+#delete:hover{
+    transition:1s;
+    background-position:50px;
+}
+#rename:hover{
+    transition:1s;
+    background-position:50px;
+}
