@@ -1,4 +1,9 @@
 <?php $dirname = "compressed/";
+if (!file_exists($dirname)) {
+    mkdir("compressed/");
+    echo "folder created";
+    header("location:/?page=0&folder=" . "compressed/");
+}
     $images = glob($dirname."*");
 function formatSizeUnits($bytes) {
     if ($bytes >= 1073741824) {
