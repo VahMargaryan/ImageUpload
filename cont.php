@@ -6,8 +6,8 @@ if (!file_exists($dirname)) {
     header("location:/?page=0&folder=" . "compressed/");
 }
     $images = glob($dirname . "*");
+function formatSizeUnits($bytes) {
 
-    function formatSizeUnits($bytes) {
     if ($bytes >= 1073741824) {
         $bytes = number_format($bytes / 1073741824, 2) . ' GB';
     }

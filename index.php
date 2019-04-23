@@ -16,7 +16,7 @@ if (!isset($_GET['page'])){
     <title>Upload Image Form</title>
 </head>
 <body>
-    <form id="form" action = "upload.php" method="POST" enctype="multipart/form-data">
+    <form id="form" action="upload.php" method="POST" enctype="multipart/form-data">
         <input id="file" type="file" name="file">
         <button type="submit" name="submit">Upload Image</button>
     </form>
